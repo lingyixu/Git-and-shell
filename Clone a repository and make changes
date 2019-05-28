@@ -1,0 +1,56 @@
+###############################################################
+# I already create a new branch and initialize the repository.
+###############################################################
+
+
+MINGW64 ~ (temp01)
+$ git clone https://github.com/lingyixu/Computational-Methods-for-MathFin.git
+Cloning into 'Computational-Methods-for-MathFin'...
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (20/20), done.
+Rremote: Total 121 (delta 7), reused 0 (delta 0), pack-reused 101
+Receiving objects: 100% (121/121), 40.01 KiB | 4.00 MiB/s, done.
+Resolving deltas: 100% (60/60), done.
+
+MINGW64 ~ (temp01)
+$ pwd
+/c/Users/lynne
+
+MINGW64 ~ (temp01)
+$ cd  Computational-Methods-for-MathFin
+
+MINGW64 ~/Computational-Methods-for-MathFin (master)
+$ pwd
+/c/Users/lynne/Computational-Methods-for-MathFin
+
+MINGW64 ~/Computational-Methods-for-MathFin (master)
+$ ls
+'Black-Scholes PDE Discretization.py'
+'Contingent Option Pricing.py'
+'Covariance Matrix Decomposition.py'
+'Monte Carlo Simulation for Heston Model.py'
+'Option Pricing by Quadrature.py'
+ README.md
+'Risk Neutral Density Recovery.py'
+'Simulation and Delta Hedging Under CEV Model.py'
+
+MINGW64 ~/Computational-Methods-for-MathFin (master)
+$ nano report.txt
+
+MINGW64 ~/Computational-Methods-for-MathFin (master)
+$ git remote
+origin
+
+MINGW64 ~/Computational-Methods-for-MathFin (master)
+$ git remote -v
+origin  https://github.com/lingyixu/Computational-Methods-for-MathFin.git (fetch)
+origin  https://github.com/lingyixu/Computational-Methods-for-MathFin.git (push)
+
+MINGW64 ~/Computational-Methods-for-MathFin (master)
+$ git pull origin
+Already up to date.
+
+MINGW64 ~/Computational-Methods-for-MathFin (master)
+$ cd ~
+
